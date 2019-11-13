@@ -12,7 +12,7 @@
   "dependencies": {
     "commander": "^2.12.1",
     "inquirer": "^4.0.0",
-    "knex": "^0.14.6",
+    "knex": "^0.19.5",
     "moment-timezone": "^0.5.27",
     "mysql": "^2.15.0",
     "mysql2": "^2.0.0"
