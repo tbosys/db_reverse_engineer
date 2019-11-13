@@ -1,0 +1,23 @@
+{
+  "name": "rve-db-to-knex-mig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node index.js createMigration",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.12.1",
+    "inquirer": "^4.0.0",
+    "knex": "^0.14.6",
+    "moment-timezone": "^0.5.27",
+    "mysql": "^2.15.0",
+    "mysql2": "^2.0.0"
+  },
+  "devDependencies": {
+    "schwifty-migrate-diff": "0.0.4"
+  }
+}
